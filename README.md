@@ -2,7 +2,7 @@
 # License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Description
-Creating a Directory where the user can search for people within the directory
+Creating a Directory where the user can search for people within the directory. 
 ## Table of content 
 1. [Title](#title)
 2. [Description](#description) 
@@ -19,7 +19,7 @@ must install react and npm packages
 User can click on sort to sort all the users and can search the directory for people with in the directory
 
 # Contributing
-Online resources; teachers; tutors; and class mates all provided guidance and directions on how to complete successfully
+This was very hard for me to complete had to use Online resources; teachers; tutors; and class mates all provided guidance and directions on how to complete successfully
 
 # Tests
 NA
