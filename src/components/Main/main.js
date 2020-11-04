@@ -46,7 +46,7 @@ class Main extends Component {
             sortDirection: newSortDirection
         });
     };
-    //  will search by employee name
+    //  will search by employee name when typing
     handleInputChange = event => {
         event.preventDefault();
 
@@ -69,17 +69,16 @@ class Main extends Component {
                 <table className="table">
                     <thead className="theader">
                         <tr>
-                            <th scope="col">Name</th> 
-                            
+                            <th scope="col">Name</th>
+
                             <th scope="col">Phone Number</th>
-                         
+
                             <th scope="col">E-mail Address</th>
-                            
-                            
+
                             <th scope="col">DOB</th>
-                            <br/>
+                            <br />
                         </tr>
-                        
+
                     </thead>
 
                     <tbody>
@@ -89,8 +88,8 @@ class Main extends Component {
                             name={employee.name}
                             phone={employee.phone}
                             email={employee.email}
-                            DOB={employee.DOB} 
-                            />)}
+                            DOB={employee.DOB}
+                        />)}
                     </tbody>
                 </table>
             </>
